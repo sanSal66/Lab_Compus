@@ -22,7 +22,6 @@ public class Guia238 {
     }
 
     public  static boolean esVocal(char caracter) {
-
         return switch (caracter) {
             case 'a','e','i','o','u' -> true;
             default -> false;
